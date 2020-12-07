@@ -1,0 +1,61 @@
+
+
+.bg-primary {
+    padding-top: 20px;
+    background-color: #306eff!important;
+}
+
+.dps{
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.mat-form-field{
+    width: 50%;
+}
+.mat-form-field .input{
+    max-width: 50%;
+}
+
+table{
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width: 700px){
+
+    .mat-form-field{
+        width: 80%;
+    }
+
+    .mat-form-field .input{
+        max-width: 80%;
+    }
+
+
+    table{
+        width: 100%;
+    }
+
+    .ngh{
+        margin-left: 4px;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .mat-header-cell{
+        padding-left: 6px;
+    }
+
+    .mat-cell{
+        font-size: 11px;
+        padding-left: 6px;
+    }
+}
+
+.mat-paginator{
+    margin-top: -70px;
+}
